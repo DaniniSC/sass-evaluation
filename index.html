@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 	<title>NEWS</title>
 </head>
@@ -12,24 +13,33 @@
 
 		<!--header con 2 row: titulo news col12 / nav col9 buscador col3-->
 		<header>
-			<div class="row">
+			<div class="row"><!--titulo news - img-->
 				<div class="col m12 l12"><!--titulo news-->
-					<h1>NEWS<span>.</span></h1>
+					<img src="img/logo.png" alt="">
 				</div>
 			</div>
-			<div class="row">
-				<div class="col m9 l9"><!--nav-->
-					<ul>
-						<li><a href="">WORLD.</a></li>
-						<li><a href="">BUSINESS.</a></li>
-						<li><a href="">POLITICS.</a></li>
-						<li><a href="">SPORTS.</a></li>
-						<li><a href="">HEALTH.</a></li>
-						<li><a href="">SCIENCES.</a></li>
-						<li><a href="">SPOTLIGHT.</a></li>
-					</ul>
+			<div class="row"><!--nav y barra de búsqueda-->
+				<div class="col m9 l9" id="barraNav"><!--nav-->
+					<nav>
+						<ul>
+							<li><a href="#">WORLD.</a></li>
+							<li><a href="#">BUSINESS.</a></li>
+							<li><a href="#">POLITICS.</a></li>
+							<li><a href="#">SPORTS.</a></li>
+							<li><a href="#">HEALTH.</a></li>
+							<li><a href="#">SCIENCES.</a></li>
+							<li><a href="#">SPOTLIGHT.</a></li>
+						</ul>
+					</nav>
 				</div>
-				<div class="col m3 l3"><!--buscador--></div>
+				<div class="col m3 l3" id="buscador"><!--buscador-->
+					<div>
+						<input type="text">
+						<div>
+							<i class="small material-icons">search</i>
+						</div>
+					</div>
+				</div>
 			</div>
 		</header>
 
@@ -38,16 +48,17 @@
 			<div class="row">
 				<div class="col m7 l7"><!--slider-->
 					<div>
-						<img src="img/1.png" alt="">
+						<div></div>
+						<img src="img/pi.png" alt="">
 					</div>
 				</div>
 				<div class="col m5 l5"><!--noticias laterales (2)-->
 					<div>
-						<img src="img/6.png" alt="">
+						<img src="img/pd.png" alt="">
 					</div>
 					<div>
-						<img src="img/3 (1).png" alt="">
-						<img src="img/13.png" alt="">
+						<img src="img/pd1.png" alt="">
+						<img src="img/pd2.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -57,26 +68,189 @@
 		<section>
 			<div class="row">
 				<div class="col m8 l8"><!--columna izquierda-->
-					<div>
-						<h2>POPULAR NEWS</h2>
-						<div>
-							<img src="img/5 (1).png" alt="">
+					<div class="seccionPopularNews">
+						<div><!--POPULAR NEWS-->
+							<h2>POPULAR NEWS</h2>
+							<div>
+								<img src="img/pn1.png" alt="">
+								<span>26 May, 2013</span>
+								<p>Blandit Rutrum, Erat et Sagittis</p>
+								<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+							</div>
+							<div>
+								<img src="img/pn2.png" alt="">
+								<span>26 May, 2013</span>
+								<p>Blandit Rutrum, Erat et Sagittis</p>
+								<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+							</div>
+							<div>
+								<img src="img/pn3.png" alt="">
+								<span>26 May, 2013</span>
+								<p>Blandit Rutrum, Erat et Sagittis</p>
+								<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+							</div>
+							<div>
+								<img src="img/pn4.png" alt="">
+								<span>26 May, 2013</span>
+								<p>Blandit Rutrum, Erat et Sagittis</p>
+								<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+							</div>
 						</div>
-						<div>
-							<img src="img/6 (1).png" alt="">
+						<div><!--HOT NEWS-->
+							<h2>HOT NEWS</h2>
+							<div>
+								<img src="img/hn1.png" alt="">
+								<span>26 May, 2013</span>
+								<p>Blandit Rutrum, Erat et Sagittis</p>
+								<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+							</div>
+							<div>
+								<img src="img/hn2.png" alt="">
+								<span>26 May, 2013</span>
+								<p>Blandit Rutrum, Erat et Sagittis</p>
+								<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+							</div>
+							<div>
+								<img src="img/hn3.png" alt="">
+								<span>26 May, 2013</span>
+								<p>Blandit Rutrum, Erat et Sagittis</p>
+								<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+							</div>
+							<div>
+								<img src="img/hn4.png" alt="">
+								<span>26 May, 2013</span>
+								<p>Blandit Rutrum, Erat et Sagittis</p>
+								<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+							</div>
 						</div>
-						<div></div>
-						<div></div>
 					</div>
-					<div>
-						<h2>HOT NEWS</h2>
-						<div></div>
-						<div></div>
-						<div></div>
-						<div></div>
+					<div class="seccionLifestyle">
+						<div>
+							<h2>LIFESTYLE</h2>
+								<div>
+									<img src="img/ls.png" alt="">
+									<p>Blandit Rutrum, Erat et Sagittis. Lorem Ipsum Dolor, Sit Amet Adipsing.</p>
+									<span>26 May, 2013 // World News // No Comments.</span>
+									<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio unde soluta veritatis numquam inventore esse suscipit consequuntur laborum perspiciatis. Perferendis, aliquid doloribus. Quos, quas facere sunt sequi obcaecati doloremque voluptates!</span>
+								</div>
+								<div>
+									<div>
+										<img src="img/ls1.png" alt="">
+										<span>26 May, 2013</span>
+										<p>Blandit Rutrum, Erat et Sagittis</p>
+										<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+									</div>
+									<div>
+										<img src="img/ls2.png" alt="">
+										<span>26 May, 2013</span>
+										<p>Blandit Rutrum, Erat et Sagittis</p>
+										<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+									</div>
+									<div>
+										<img src="img/ls3.png" alt="">
+										<span>26 May, 2013</span>
+										<p>Blandit Rutrum, Erat et Sagittis</p>
+										<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+									</div>
+									<div>
+										<img src="img/ls4.png" alt="">
+										<span>26 May, 2013</span>
+										<p>Blandit Rutrum, Erat et Sagittis</p>
+										<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+									</div>
+								</div>
+						</div>
+					</div>
+					<div class="seccionWorldNews">
+						<div>
+							<h2>WORLD NEWS</h2>
+							<div><!--row con imagen y texto lateral-->
+								<div>
+									<img src="img/wn.png" alt="">
+								</div>
+								<div>
+									<p>Blandit Rutrum, Erat et Sagittis. Lorem Ipsum Dolor, Sit Amet Adipsing.</p>
+									<span>26 May, 2013 // World News // No Comments.</span>
+									<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio unde soluta veritatis numquam inventore esse suscipit consequuntur laborum perspiciatis. Perferendis, aliquid doloribus. Quos, quas facere sunt sequi obcaecati doloremque voluptates!</span>
+								</div>
+							</div>	
+							<div><!--row con cuatro cuadros imagen + texto-->
+								<div>
+									<img src="img/wni1.png" alt="">
+									<span>26 May, 2013</span>
+									<p>Blandit Rutrum, Erat et Sagittis</p>
+									<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+								</div>
+								<div>
+									<img src="img/wnd1.png" alt="">
+									<span>26 May, 2013</span>
+									<p>Blandit Rutrum, Erat et Sagittis</p>
+									<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+								</div>
+								<div>
+									<img src="img/wni2.png" alt="">
+									<span>26 May, 2013</span>
+									<p>Blandit Rutrum, Erat et Sagittis</p>
+									<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+								</div>
+								<div>
+									<img src="img/wnd2.png" alt="">
+									<span>26 May, 2013</span>
+									<p>Blandit Rutrum, Erat et Sagittis</p>
+									<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="seccionBusinessSports">
+						<div><!--BUSINESS-->
+							<h2>BUSINESS</h2>
+							<img src="img/b.png" alt="">
+							<p>Blandit Rutrum, Erat et Sagittis. Lorem Ipsum Dolor, Sit Amet Adipsing.</p>
+							<span>26 May, 2013 // World News // No Comments.</span>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio unde soluta veritatis numquam inventore esse suscipit consequuntur laborum perspiciatis. Perferendis, aliquid doloribus. Quos, quas facere sunt sequi obcaecati doloremque voluptates!</span>
+							<div>
+								<img src="img/b1.png" alt="">
+								<span>26 May, 2013</span>
+								<p>Blandit Rutrum, Erat et Sagittis</p>
+								<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+							</div>
+							<div>
+								<img src="img/b2.png" alt="">
+								<span>26 May, 2013</span>
+								<p>Blandit Rutrum, Erat et Sagittis</p>
+								<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+							</div>
+						</div>
+						<div><!--SPORTS-->
+							<h2>SPORTS</h2>
+							<img src="img/s.png" alt="">
+							<p>Blandit Rutrum, Erat et Sagittis. Lorem Ipsum Dolor, Sit Amet Adipsing.</p>
+							<span>26 May, 2013 // World News // No Comments.</span>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio unde soluta veritatis numquam inventore esse suscipit consequuntur laborum perspiciatis. Perferendis, aliquid doloribus. Quos, quas facere sunt sequi obcaecati doloremque voluptates!</span>
+							<div>
+								<img src="img/s1.png" alt="">
+								<span>26 May, 2013</span>
+								<p>Blandit Rutrum, Erat et Sagittis</p>
+								<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+							</div>
+							<div>
+								<img src="img/s2.png" alt="">
+								<span>26 May, 2013</span>
+								<p>Blandit Rutrum, Erat et Sagittis</p>
+								<i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i><i class="tiny material-icons">grade</i>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="col m4 l4"><!--columna derecha--></div>
+				<div class="col m4 l4"><!--columna derecha-->
+					<div class="seccionStayConnected"></div>
+					<div class="seccionVimeoVideos"></div>
+					<div class="seccionAdsSpot"></div>
+					<div class="seccionRecentPopularComments"></div>
+					<div class="seccionAccordion"></div>
+					<div class="seccionFacebook"></div>
+				</div>
 			</div>
 		</section>
 		
