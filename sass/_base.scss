@@ -1,3 +1,43 @@
+header {
+	margin-top: 25px;
+	padding-bottom: 0;
+	.nav-buscador {
+		margin-bottom: 20;
+		border-bottom: 1px solid $rojo;
+		padding-bottom: 0;
+	}
+}
 #barraNav {
-	
+	nav {
+		background-color: $blanco;
+		box-shadow: none;
+		ul {
+			list-style: none;
+			list-style-type: none;
+			a {
+				text-decoration: none;
+				color: $gris;
+				padding: 0 10px;
+				font-size: 13px;
+				font-weight: $gruesa;
+			}
+		}
+	}
+}
+#buscador input {
+	width: 80%;
+	float: left;
+	background-color: $grisclaro;
+	border: none;
+	padding: 0;
+	margin: 0;
+	height: 25px;
+	div {
+		float: left;
+		width: 100%;
+	}
+}
+
+.negrita {
+	font-size: $gruesa;
 }

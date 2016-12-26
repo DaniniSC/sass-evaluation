@@ -6354,5 +6354,40 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 @media (min-height: 40.125em) {
   .picker--time .picker__box {
     margin-bottom: 5em; } }
+header {
+  margin-top: 25px;
+  padding-bottom: 0; }
+  header .nav-buscador {
+    margin-bottom: 20;
+    border-bottom: 1px solid #EA4748;
+    padding-bottom: 0; }
+
+#barraNav nav {
+  background-color: white;
+  box-shadow: none; }
+  #barraNav nav ul {
+    list-style: none;
+    list-style-type: none; }
+    #barraNav nav ul a {
+      text-decoration: none;
+      color: #696969;
+      padding: 0 10px;
+      font-size: 13px;
+      font-weight: bold; }
+
+#buscador input {
+  width: 80%;
+  float: left;
+  background-color: #FAFAFA;
+  border: none;
+  padding: 0;
+  margin: 0;
+  height: 25px; }
+  #buscador input div {
+    float: left;
+    width: 100%; }
+
+.negrita {
+  font-size: bold; }
 
 /*# sourceMappingURL=main.css.map */
